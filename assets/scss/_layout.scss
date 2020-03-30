@@ -1,11 +1,15 @@
 html {
     font-size: initial;
+    font-family: $font-family;
+    background-image: url(https://designwoop.com/uploads/2012/05/pattern_white_x0.5_pattern_vectorized_copy_2x-613x460.png);
+    background-attachment: fixed;
 }
 
 body {
     header {
         height: 15vh;
-        background-color: red;
+        background-color: grey;
+        opacity: 0.5;
         color: white;
         display: flex;
         justify-content: space-between;
@@ -13,22 +17,61 @@ body {
             list-style-type: none;
             display: flex;
             justify-content: flex-end;
-            margin: 0px 10px 0px 0px;
+            //margin: 20px 10px 0px 0px;
+            padding: 30px;
         }
         li {
             display: inline;
-            margin: 0px 20px 0px 0px;
+            margin: 0px 15px 0px 15px;
+        }
+        h1 {
+            font-size: 50px;
+            color: black;
+            justify-content: center;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            background-color: darkslategrey;
+            border: 1px darkgray none;
+            border-radius: 8px;
+            color: white;
         }
     }
     main {
         height: 80vh;
-        background-color: violet;
+        //background-color: violet;
         .présentation {
-            background-color: pink;
+            //background-color: pink;
+            border: 2px dotted darkslateblue;
+            border-radius: 25px;
+            text-align: justify;
+        }
+        .desc {
+            padding: 20px;
+        }
+        .compétences {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .cpt {
+            text-align: center;
+            margin: 15px;
+        }
+        .tree {
+            display: flex;
+            justify-content: center;
         }
     }
     footer {
         height: 5vh;
-        background-color: rosybrown;
+        background-color: grey;
+        opacity: 0.5;
+        display: flex;
+        align-items: center;
     }
 }
