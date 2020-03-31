@@ -47,27 +47,11 @@ body {
     }
     main {
         height: 80vh;
-        //background-color: violet;
-        .présentation {
+        .description {
             background-color: white;
             opacity: 0.7;
-            //border: 2px dotted darkslateblue;
-            //border-radius: 25px;
             text-align: justify;
             padding: 20px;
-        }
-        .compétences {
-            display: flex;
-            justify-content: space-around;
-            padding: 10px;
-        }
-        .cpt {
-            text-align: center;
-            margin: 15px;
-        }
-        .tree {
-            display: flex;
-            justify-content: center;
         }
     }
     footer {
